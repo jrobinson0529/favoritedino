@@ -10,10 +10,12 @@ body, html {
   font-family: 'Righteous', cursive;
 }
 main {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   /* border: 2px solid blue; */
-  height: 100em;
+  height: auto;
 }
 h1 {
   font-size: 3em;
@@ -24,8 +26,15 @@ p {
   font-size: 1.5em;
 }
 .aboutme {
+  margin: 20px;
   padding: 10em 0;
   /* border: 2px solid blue; */
+  width: 50%;
+}
+.aboutdino {
+  color: #1e250a;
+  padding: 10px;
+  margin: 20px;
   width: 50%;
 }
 .footcontainer {
