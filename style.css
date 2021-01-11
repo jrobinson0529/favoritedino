@@ -10,6 +10,8 @@ body, html {
   font-family: 'Righteous', cursive;
 }
 main {
+  display: flex;
+  justify-content: center;
   /* border: 2px solid blue; */
   height: 100em;
 }
@@ -17,7 +19,14 @@ h1 {
   font-size: 3em;
 }
 p {
-  font-size: 1.4em;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.5em;
+}
+.aboutme {
+  padding: 10em 0;
+  /* border: 2px solid blue; */
+  width: 50%;
 }
 .footcontainer {
   border: 10px solid #692828;
